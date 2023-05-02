@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* LAYOUT RULES */
+    .container{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-double, .col-30{
+        width: calc(100% - 20px);
+        margin: 10px;
+    }
+
+    .header-flex{
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .left-logo, .right-menu {
+        width: 100%;
+    }
+
+    .hamburger-menu, .extended-menu{
+        width: 100%;
+    }
+
+    .extended-menu {
+        display: none;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        border-radius: 20px;
+    }
+
+    .content div{
+        padding: 10px;
+    }
+/*  FINE LAYOUT RULES */
+
+/* STYLE HEADER */
+    .header-blue{
+        width: 100%;
+        background-color: #0084fd;
+    }
+
+    .left-logo img{
+        width: 75px;
+        padding: 15px 0;
+    }
+
+    ul{
+        list-style-type: none;
+    }
+
+    .hamburger-menu i{
+        display: flex;
+        width: 100%;
+        color: #fff;
+        justify-content: right;
+        align-items: center;
+    }
+/* FINE STYLE HEADER */
+
+
+/* MEDIA QUERY */
+
+    /* TABLET */
+    @media screen and (min-width: 768px){
+        .container{
+            max-width: 750px;
+        }
+
+        .row{
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .col-double{
+            width: calc(100 / 3 * 2 - 20px);
+        }
+
+        .col-30{
+            width: calc(100 / 3 - 20px);
+        }
+
+        .content{
+            flex-direction: row;
+        }
+    }
+
+    /* DESKTOP */
+    @media screen and (min-width: 991px){
+        .container {
+            max-width: 950px;
+        }
+
+        .extended-menu{
+            display: block;
+        }
+
+        .hamburger-menu {
+            display: none;
+        }
+    }
+
+    /* LARGE DESKTOP */
+    @media screen and (min-width: 1200px){
+        .container {
+            max-width: 1140px;
+        }
+    }
+/* FINE MEDIA QUERY */
