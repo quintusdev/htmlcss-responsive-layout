@@ -211,14 +211,22 @@ header, .button-blu{
 .text-dev .arrow i{
     display: flex;
     background-color: #9792e4;
-    font-size: 30px;
-    padding: 24px 12px;
+    font-size: 20px;
+    padding: 20px 20px;
     border-radius: 50%;
     margin-top: 25px;
     justify-content: center;
 }
 /* FINE SEZIONE 2 */
 
+/* INIZIO SEZIONE 3 */
+.col-100 h5{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 20px 0;
+}
+/* FINE SEZIONE 3 */
 
 /* / FINE MAIN / */
 
