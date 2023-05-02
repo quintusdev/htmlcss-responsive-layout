@@ -368,6 +368,13 @@ header, .button-blu{
     line-height: 1.5;
 }
 
+.col-100 i#About{
+    position: absolute;
+    left: 52%;
+    font-size: 85px;
+    color: #9792e4;
+}
+
 /* STYLE BOTTONE LINKEDIN */
 .btn-linkedin{
     font-size: 15px;
@@ -417,20 +424,29 @@ header, .button-blu{
 .col-100.getstart p{
     margin-top: 10px;
     color: #fff;
-    font-size: 15px;
-    line-height: 1.6;
-    padding: 20px 8px;
+    font-size: 17px;
+    line-height: 1.7;
+    padding: 20px 9px;
+}
+
+.col-100.getstart button{
+    display: flex;
+    justify-content: center;
 }
 
 .btn-start{
-    font-size: 18px;
-    color: #fff;
-    background-color: #9792e4;
+    font-size: 16px;
+    color: #9792e4;
+    background-color: #fff;
     border: none;
-    border-radius: 20px;
-    padding: 20px 40px;
+    border-radius: 80px;
+    padding: 20px 80px;
+    margin: 0 auto;
 }
 
+.col-100.getstart p a{
+    text-decoration: underline;
+}
 /* FINE SEZIONE 6 */
 
 /* / FINE MAIN / */
@@ -439,6 +455,11 @@ header, .button-blu{
     .col-100#foot{
         color: #fff;
         font-size: 14px;
+    }
+
+    .col-100#foot p{
+        color: #fff;
+        font-size: 13px;
     }
 
     .col-100#foot a, .col-100#foot p#creator{
