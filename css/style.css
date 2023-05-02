@@ -226,6 +226,36 @@ header, .button-blu{
     font-weight: 100;
     padding: 20px 0;
 }
+
+.col-100 h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0;
+    color: #9792e4;
+}
+
+.col-100 p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.col-100.violet{
+    max-width: 100%;
+    border-radius: 40px;
+    background-color: #9792e4;
+    padding: 35px;
+}
+
+.contain-img-testimonial{
+    max-width: 80%;
+    border-radius: 50%;
+    
+}
+
+
 /* FINE SEZIONE 3 */
 
 /* / FINE MAIN / */
