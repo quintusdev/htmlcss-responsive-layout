@@ -1,121 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- LINK FONTAWESOME -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
-        <!-- LINK STYLE -->
-        <link rel="stylesheet" href="./css/style.css">
+    <!-- STYLE FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-        <title>Layout Responsive</title>
-    </head>
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Responsive Layout</title>
+</head>
     <body>
+        <!-- INIZIO HEADER -->
         <header>
             <div class="header-blue">
                 <div class="container">
                     <div class="header-flex">
                         <div class="left-logo">
-                            <img src="./img/logo.png" alt="Logo">
+                            <img src="./img/logo.png" alt="logo">
                         </div>
+                        <!-- INIZIO PARTE DESTRA HEADER VERSIONE DESKTOP -->
                         <div class="right-menu">
                             <div class="hamburger-menu">
-                                <i class="fa-solid fa-bars fa-xl"></i>
+                               <i class="fa-sharp fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
                             </div>
                             <div class="extended-menu">
-                                <ul>
-                                    <li>Planning</li>
-                                    <li>Testimonial</li>
-                                    <li>Features</li>
-                                    <li>About us</li>
-                                    <a class="btn">Get Started</a>
-                                </ul>
+                                <a class="caratteristiche-link" href="#">Planning</a>
+                                <a class="caratteristiche-link" href="#">Testimonials</a>
+                                <a class="caratteristiche-link" href="#">Features</a>
+                                <a class="caratteristiche-link" href="#">About Us</a>
+                                <button class="button-white button-header">Get Started</button>
                             </div>
                         </div>
+                        <!-- FINE PARTE DESTRA HEADER VERSIONE DESKTOP -->
+
                     </div>
                 </div>
             </div>
         </header>
+        <!-- FINE HEADER -->
+
 
         <main>
-            <!-- SEZIONE DEMO APPLICATION -->
+            <!-- INIZIO MAIN -->
+            
+            <!-- INIZIO SEZIONE 1 -->
             <section>
-                <div class="container sez1">
-                    <div class="row sez1">
-                        <div class="col-double sez1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-double sfondo">
                             <div class="content flex">
                                 <div class="left-content">
-                                    <h4>Get a demo application</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eos nesciunt corrupti qui doloribus accusamus incidunt repellat reprehenderit eius iure!</p>
-                                    <a id="btn-apple"><i class="fa-brands fa-apple"></i>App Store</a>
+                                    <h2 class="h2-section1-blu"> Get a demo application</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, impedit! Accusamus, ab voluptatem. Quam quae quidem dignissimos aliquid quibusdam reiciendis ex.</p>
+                                    <button class="button-blu"><i class="fa-brands fa-apple" style="color: #ffffff;"></i> App Store</button>
                                 </div>
                                 <div class="right-content">
                                     <img src="./img/phone.png" alt="demo phone">
                                 </div>
                             </div>
+                        </div>    
+                        <div class="col-30 sfondo"></div>
+                        <div class="col-30 sfondo"></div>
+                        <div class="col-30 sfondo"></div>
+                        <div class="col-30 sfondo"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- FINE SEZIONE 1 -->
+            
+            <!-- INIZIO SEZIONE 2 -->
+            <section class="violet">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-50">
+
                         </div>
-                        <div class="col-30">
-                            <i class="fa-solid fa-file-code"></i>
-                            <h5>Clean Code</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, doloremque.</p>
-                        </div>
-                        <div class="col-30">
-                            <i class="fa-solid fa-file-code"></i>
-                            <h5>Clean Code</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, doloremque.</p>
-                        </div>
-                        <div class="col-30">
-                            <i class="fa-solid fa-file-code"></i>
-                            <h5>Clean Code</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, doloremque.</p>
-                        </div>
-                        <div class="col-30">
-                            <i class="fa-solid fa-file-code"></i>
-                            <h5>Clean Code</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, doloremque.</p>
+                        <div class="col-50">
+
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- FINE SEZIONE DEMO APPLICATION -->
-            
-            <!-- SEZIONE STRATEGY -->
-            <div class="container sez2">
-                <div class="row">
-                    <div class="col-50">
+            <!-- FINE SEZIONE 2 -->
 
-                    </div>
-                    <div class="col-50">
-
-                    </div>
-                </div>
-            </div>
-            <!-- FINE SEZIONE STRATEGY -->
-
-            <!-- SEZIONE TESTIMONIAL -->
-            <div class="container sez3">
-                <div class="row">
-                    <div class="col-100"></div>
-                    <div class="col-100"></div>
-                    <div class="col-100"></div>
-                    <div class="col-100"></div>
-                </div>
-            </div>
-            <!-- FINE SEZIONE TESTIMONIAL -->
-
-            <!-- SEZIONE BENEFITS -->
-            <div class="container sez4">
-                
+            <!-- INIZIO SEZIONE 3 -->
+            <section>
+                <div class="container">
                     <div class="row">
                         <div class="col-100">
-                        <h2>Benefits of work with us</h2>
+
                         </div>
+                        <div class="col-100">
+
+                        </div>
+                        <div class="col-100">
+
+                        </div>
+                        <div class="col-100">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- FINE SEZIONE 3 -->
+
+            <!-- INIZIO SEZIONE 4 -->
+            <section class="violet" id="benefits">
+                <h2 class="text-center">Benefits of work with us</h2>
+                <div class="container ">
+                    <div class="row">
                         <div class="col-30">
                             <div class="content">
-                                
+
                             </div>
                         </div>
                         <div class="col-30"></div>
@@ -124,35 +123,53 @@
                         <div class="col-30"></div>
                         <div class="col-30"></div>
                     </div>
-            </div>
-            <!-- FINE SEZIONE BENEFITS -->
-
-            <!-- SEZIONE ABOUT US -->
-               <div class="container sez5">
-                <div class="row">
-                    <div class="col-50"></div>
-                    <div class="col-50"></div>
                 </div>
-            </div>
-            <!-- FINE SEZIONE ABOUT US -->
+            </section>
+            <!-- FINE SEZIONE 4 -->
 
+            <!-- INIZIO SEZIONE 5 -->
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-60">
 
-            <!-- SEZIONE GET STARTED -->
-            <div class="container sez6">
-                <div class="row">
-                    <div class="col-100"></div>
+                        </div>
+                        <div class="col-40">
+
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- FINE SEZIONE AGET STARTED -->
+            </section>
+            <!-- FINE SEZIONE 5 -->
+
+            <!-- INIZIO SEZIONE 6 -->
+            <section class="violet">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-100">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- FINE SEZIONE 6 -->
+
         </main>
-        <!-- FINE MAIN -->
+            <!-- FINE MAIN -->
 
         <!-- INIZIO FOOTER -->
         <footer>
-            <div class="container foot">
+            <section class="black">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-100">
 
-            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </footer>
         <!-- FINE FOOTER -->
+
     </body>
 </html>

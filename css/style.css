@@ -1,218 +1,187 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-/* LAYOUT RULES */
-    .container{
-        max-width: 600px;
-        margin: 0 auto;
-    }
-
-    *.row{
-        display: flex;
-        flex-direction: column;
-        width: 70%;
-        margin: 0 auto;
-        background-color: yellow;
-    }
-
-    .col-double, .col-30{
-        width: calc(100% - 20px);
-        margin: 10px;
-    }
-
-    .header-flex{
-        justify-content: space-between;
-        display: flex;
-    }
-
-    .left-logo, .right-menu {
-        width: 100%;
-    }
-
-    .hamburger-menu, .extended-menu{
-        width: 100%;
-    }
-
-    .extended-menu {
-        display: none;
-    }
-
-    .flex {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .content {
-        border-radius: 20px;
-    }
-
-    .content div{
-        padding: 10px;
-    }
-
-    .container.sez1, .container.sez3, .container.sez5{
-        background-color: #fff;
-        max-width: 100%;
-        height: 500px;
-    }
-
-    .container.sez2, .container.sez4, .container.sez6{
-        background-color: #9792e4;
-        max-width: 100%;
-        height: 500px;
-    }
-/*  FINE LAYOUT RULES */
-
-/* STYLE HEADER */
-    .header-blue{
-        width: 100%;
-        background-color: #0084fd;
-    }
-
-    .left-logo img{
-        width: 75px;
-        padding: 15px 0;
-    }
-
-    ul{
-        list-style-type: none;
-    }
-
-    .hamburger-menu i{
-        display: flex;
-        width: 100%;
-        color: #fff;
-        justify-content: right;
-        padding-top: 35px;
-    }
-
-    .extended-menu li{
-        display: inline-block;
-        justify-content: center;
-        font-size: 18px;
-        color: #fff;
-        padding: 0 10px;
-        padding-top: 25px;
-    }
-
-    .btn {
-        background-color: #fff;
-        padding: 10px 13px;
-        font-size: 16px;
-        color: black;
-        border-radius: 20px;
-    }
-
-/* FINE STYLE HEADER */
-
-/* STYLE SEZIONE DEMO APPLICATION */
-
-    .row.sez1 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .col-double.sez1, .col-30 {
-        background-color: #b5ddff;
-        border-radius: 20px;
-    }
-
-    .right-content img {
-        width: 100%;
-    }
-
-/* FINE STYLE SEZIONE DEMO APPLICATION */
-
-/* INIZIO STYLE STRATEGY */
-    .col-50{
-        width: calc(100% / 2 - 20px);
-        margin: 10px;
-        display: flex;
-        justify-content: space-between;
-        height: 350px;
-        background-color: green;
-    }
-
-/* FINE STYLE STRATEGY */
-
-/* INIZIO STYLE TESTIMONIAL */
-.col-100{
-    width: 100%;
-    margin: 20px 0;
-    display: flex;
-    height: 50px;
-    background-color: green;
+section{
+    padding: 20px;
 }
 
-/* FINE STYLE TESTIMONIAL */
+/* / layout rules / */
 
-/* INIZIO STYLE BENEFITS*/
-.col-30{
-    width: calc(100% / 3 - 20px);
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-double, .col-30, .col-50, .col-60, .col-40, .col-100{
+    width: calc(100% - 20px);
+    /* / height: 300px;
+    background-color: red;  */
     margin: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.extended-menu{
+    display: none;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.violet{
+    background-color: purple;
+}
+
+.black{
+    background-color: #222;
+}
+
+.white{
+    background-color: white;
+}
+
+header, .button-blu{
+    background-color: #0084fd;
+}
+
+/* / INIZIO HEADER / */
+
+.header-flex{
     display: flex;
     justify-content: space-between;
-    height: 50px;
-    background-color: green;
+    align-items: center;
+    padding: 10px;
+    margin: 0 10px;
 }
 
-/* FINE STYLE BENEFITS */
+.caratteristiche-link{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
 
-/* INIZIO STYLE FOOTER */
-    .container.foot{
-        max-width: 100%;
-        background-color: #333333;
-        height: 200px;
+.button-header{
+    margin-left: 20px;
+}
+
+.button-white{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+
+.sfondo{
+    background-color: #b5ddff;
+    border-radius: 20px;
+}
+
+.col-30, .col-double{
+    padding: 20px 20px 0 20px;
+}
+
+.h2-section1-blu{
+    font-size: 25px;
+    color: #0084fd;
+}
+
+.button-blu{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+
+.left-content p{
+    display: flex;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: left;
+}
+
+.right-content img{
+    max-width: 80%;
+    margin-bottom: -5px;
+}
+/* / FINE MAIN / */
+
+/* / TABLET / */
+@media screen and (min-width: 768px) {
+    .container{
+        max-width: 750px;
     }
-/* FINE STYLE FOOTER */
-/* MEDIA QUERY */
 
-    /* TABLET */
-    @media screen and (min-width: 768px){
-        .container{
-            max-width: 750px;
-        }
-
-        .row{
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-
-        .col-double{
-            width: calc(100 / 3 * 2 - 20px);
-        }
-
-        .col-30{
-            width: calc(100 / 3 - 20px);
-        }
-
-        .content{
-            flex-direction: row;
-        }
+    .content{
+        flex-direction: row;
     }
 
-    /* DESKTOP */
-    @media screen and (min-width: 991px){
-        .container {
-            max-width: 950px;
-        }
-
-        .extended-menu{
-            display: block;
-        }
-
-        .hamburger-menu {
-            display: none;
-        }
+    .row{
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
-    /* LARGE DESKTOP */
-    @media screen and (min-width: 1200px){
-        .container {
-            max-width: 1140px;
-        }
+    .col-double{
+        width: calc(100% / 3 2 - 20px);
     }
-/* FINE MEDIA QUERY */
+
+    .col-30{
+        width: calc(100% / 3 - 20px);
+    }
+
+    #benefits .col-30{
+        width: calc(100% / 2 - 20px);
+    }
+
+    .col-60{
+        width: calc(60% - 20px);
+    }
+
+    .col-40{
+        width: calc(40% - 20px);
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .container{
+        max-width: 950px;
+    }
+
+    .extended-menu{
+        display: block;
+    }
+
+    .hamburger-menu{
+        display: none;
+    }
+    #benefits .col-30{
+        width: calc(100% / 3 - 20px);
+    }
+
+    .col-50{
+        width: calc(50% - 20px);
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+
+}
