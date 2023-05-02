@@ -10,9 +10,12 @@
         margin: 0 auto;
     }
 
-    .row{
+    *.row{
         display: flex;
         flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+        background-color: yellow;
     }
 
     .col-double, .col-30{
@@ -48,6 +51,18 @@
 
     .content div{
         padding: 10px;
+    }
+
+    .container.sez1, .container.sez3, .container.sez5{
+        background-color: #fff;
+        max-width: 100%;
+        height: 500px;
+    }
+
+    .container.sez2, .container.sez4, .container.sez6{
+        background-color: #9792e4;
+        max-width: 100%;
+        height: 500px;
     }
 /*  FINE LAYOUT RULES */
 
@@ -86,7 +101,7 @@
     .btn {
         background-color: #fff;
         padding: 10px 13px;
-        font-size: 18px;
+        font-size: 16px;
         color: black;
         border-radius: 20px;
     }
@@ -95,8 +110,45 @@
 
 /* STYLE SEZIONE DEMO APPLICATION */
 
+    .row.sez1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-double.sez1, .col-30 {
+        background-color: #b5ddff;
+        border-radius: 20px;
+    }
+
+    .right-content img {
+        width: 100%;
+    }
+
 /* FINE STYLE SEZIONE DEMO APPLICATION */
 
+/* INIZIO STYLE STRATEGY */
+    .col-50{
+        width: calc(100% / 2 - 10px);
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        background-color: green;
+    }
+
+
+/* FINE STYLE STRATEGY */
+
+
+
+
+
+/* INIZIO STYLE FOOTER */
+    .container.foot{
+        background-color: #333333;
+        height: 200px;
+    }
+/* FINE STYLE FOOTER */
 /* MEDIA QUERY */
 
     /* TABLET */
