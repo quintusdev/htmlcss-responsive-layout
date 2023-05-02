@@ -71,10 +71,31 @@
         width: 100%;
         color: #fff;
         justify-content: right;
-        align-items: center;
+        padding-top: 35px;
     }
+
+    .extended-menu li{
+        display: inline-block;
+        justify-content: center;
+        font-size: 18px;
+        color: #fff;
+        padding: 0 10px;
+        padding-top: 25px;
+    }
+
+    .btn {
+        background-color: #fff;
+        padding: 10px 13px;
+        font-size: 18px;
+        color: black;
+        border-radius: 20px;
+    }
+
 /* FINE STYLE HEADER */
 
+/* STYLE SEZIONE DEMO APPLICATION */
+
+/* FINE STYLE SEZIONE DEMO APPLICATION */
 
 /* MEDIA QUERY */
 
