@@ -247,18 +247,15 @@ header, .button-blu{
     border-radius: 40px;
     background-color: #9792e4;
     padding: 35px;
-    display: flex;
-    justify-content: center;
 }
 
 .img-testimonial{
+    display: block;
+    object-fit: cover;
     width: 200px;
     height: 200px;
-    margin-top: 10px;
     border-radius: 50%;
-    background-image: url(../img/testimonial1.jpg);
-    background-position: center;
-    background-size: cover;
+    margin: 0px auto;
 }
 
 .text-testim i{
@@ -267,16 +264,148 @@ header, .button-blu{
 }
 
 .text-testim p{
+    margin-top: 10px;
     color: #fff;
     font-size: 18px;
     line-height: 1.5;
+    padding: 20px 20px;
 }
 
-
+.text-testim h4{
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: center;
+}
 /* FINE SEZIONE 3 */
 
-/* / FINE MAIN / */
+/* SEZIONE 4 */
+    
+/* FINE SEZIONE 4 */
+.container-sez4{
+    max-width: 100%;
+    background-color: #9792e4;
+}
 
+.col-100 #sez4{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.col-100.white{
+    max-width: 100%;
+    border-radius: 40px;
+    background-color: #fff;
+    padding: 35px;
+}
+
+.text-benef h1{
+    color: #9792e4;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.text-benef h2{
+    color: #9792e4;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.text-benef p{
+    color: #000;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 200;
+    text-align: left;
+}
+
+/* STYLE BUTTON SEZ 4 */
+.button-purple{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #9792e4;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 50px;
+}
+/* FINE STYLE BUTTON SEZ 4 */
+
+/* INIZIO SEZIONE 5 */
+.col-60 h1{
+    font-size: 40px;
+    color: #9792e4;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.col-60 p{
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.col-60 p#part2{
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+.col-100 .img-about{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto 0;
+}
+
+.text-about h1{
+    color: #9792e4;
+    font-size: 33px;
+    font-weight: 600;
+    padding: 20px 0;
+    line-height: 1.5;
+}
+
+/* STYLE BOTTONE LINKEDIN */
+.btn-linkedin{
+    font-size: 15px;
+    color: #fff;
+    background-color: #9792e4;
+    border: none;
+    border-radius: 20px;
+    padding: 7px 18px;
+}
+.btn-linkedin i{
+    color: #fff;
+    margin-right: 10px;
+}
+/* FINE SEZIONE 5 */
+
+/* / FINE MAIN / */
+/* INIZIO FOOTER */
+    .col-100#foot{
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .col-100#foot a, .col-100#foot p#creator{
+        color: #9792e4;
+        text-decoration: underline;
+    }
+
+    p#final{
+        font-size: 15px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    p#creator{
+        font-size: 15px;
+        margin: 0 auto;
+        padding: 0 0;
+    }
+/* FINE FOOTER */
 /* / TABLET / */
 @media screen and (min-width: 768px) {
     .container{
