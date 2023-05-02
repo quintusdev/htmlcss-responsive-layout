@@ -247,12 +247,29 @@ header, .button-blu{
     border-radius: 40px;
     background-color: #9792e4;
     padding: 35px;
+    display: flex;
+    justify-content: center;
 }
 
-.contain-img-testimonial{
-    max-width: 80%;
+.img-testimonial{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
     border-radius: 50%;
-    
+    background-image: url(../img/testimonial1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.text-testim i{
+    color: #fff;
+    font-size: 22px;
+}
+
+.text-testim p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 
