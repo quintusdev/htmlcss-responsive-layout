@@ -87,6 +87,7 @@ header, .button-blu{
 
 /* INIZIO MAIN */
 
+/* SEZIONE 1 */
 .sfondo{
     background-color: #b5ddff;
     border-radius: 20px;
@@ -94,18 +95,28 @@ header, .button-blu{
 
 .col-30, .col-double{
     padding: 20px 20px 0 20px;
+    text-align: center;
 }
 
 .h2-section1-blu{
-    font-size: 25px;
+    font-size: 20px;
     color: #0084fd;
+    text-align: left;
+    margin: 20px 0;
 }
 
 .button-blu{
-    padding: 10px 30px;
+    padding: 10px 50px;
     border-radius: 20px;
     border: none;
     color: #fff;
+    text-align: left;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.left-content{
+    padding-left: 20px;
 }
 
 .left-content p{
@@ -113,12 +124,42 @@ header, .button-blu{
     line-height: 1.5;
     font-size: 18px;
     text-align: left;
+    margin: 20px 0;
+    color: #5a6e7f;
 }
 
 .right-content img{
-    max-width: 80%;
+    max-width: 100%;
     margin-bottom: -5px;
 }
+
+.icon i{
+    color: #0084fd;
+    font-size: 80px;
+    margin: 40px 0;
+}
+
+.text .title{
+    font-size: 22px;
+    color: #0084fd;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.text p{
+    font-size: 16px;
+    text-align: center;
+    color: #5a6e7f;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+/* FINE SEZIONE 1 */
+
+/* SEZIONE 2 */
+
+/* FINE SEZIONE 2 */
+
+
 /* / FINE MAIN / */
 
 /* / TABLET / */
@@ -137,7 +178,7 @@ header, .button-blu{
     }
 
     .col-double{
-        width: calc(100% / 3 2 - 20px);
+        width: calc(100% / 3 * 2 - 20px);
     }
 
     .col-30{
