@@ -26,8 +26,6 @@ section{
 
 .col-double, .col-30, .col-50, .col-60, .col-40, .col-100{
     width: calc(100% - 20px);
-    /* / height: 300px;
-    background-color: red;  */
     margin: 10px;
 }
 
@@ -250,7 +248,7 @@ header, .button-blu{
 }
 
 .img-testimonial{
-    display: block;
+    display: flex;
     object-fit: cover;
     width: 200px;
     height: 200px;
@@ -486,6 +484,7 @@ header, .button-blu{
 
 
 /* MEDIA QUERY */
+
     /* / TABLET / */
     @media screen and (min-width: 768px) {
         .container{
@@ -542,6 +541,45 @@ header, .button-blu{
             width: calc(50% - 20px);
         }
 
+        .col-100.white{
+            width: calc(100% / 3 - 20px);
+            margin: 10px;
+        }
+
+        .row.sez4 {
+            max-width: 60%;
+            margin: 0 auto;
+        }
+
+        .col-100.violet .img-testimonial {
+            float: left;
+        }
+
+        .col-100.violet .text-testim {
+            padding-left: 190px;
+        }
+
+        .col-100.violet .text-testim h4{
+            text-align: left;
+            text-align: left;
+            padding-left: 68px;
+        }
+
+        .row.sez2{
+            position: relative;
+        }
+
+        .col-50.dev {
+            transform: scale(70%);
+            position: absolute;
+            right: 0;
+            bottom: -100px;
+        }
+
+        .col-double.sez1 {
+            text-align: left;
+        }
+
     }
 
     @media screen and (min-width: 1200px) {
@@ -549,5 +587,13 @@ header, .button-blu{
             max-width: 1140px;
         }
 
-    }
+        .col-100 i#About{
+            position: absolute;
+            left:885px;
+        }
+
+        .text-benef h2 {
+            font-size: 18px;
+        }
+     }
 /* FINE MEDIA QUERY */
