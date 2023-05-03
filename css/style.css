@@ -85,7 +85,7 @@ header, .button-blu{
     background-color: white;
     border: none;
     border-radius: 20px;
-    padding: 10px 15px;
+    padding: 8px 15px;
 }
 /* FINE HEADER */
 
@@ -446,6 +446,11 @@ header, .button-blu{
 
 .col-100.getstart p a{
     text-decoration: underline;
+}
+
+.col-100.getstart p i{
+    font-size: 5px;
+    vertical-align: middle;
 }
 /* FINE SEZIONE 6 */
 
